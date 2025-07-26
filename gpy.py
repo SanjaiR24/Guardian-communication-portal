@@ -59,7 +59,7 @@ def view_messages():
     return "End of messages"
 
 # Main program loop
-if _name_ == "_main_":
+if __name__ == "__main__":
     while True:
         action = input("\nChoose action:\n1. Register Guardian\n2. Manage Guardian\n3. Register Institution\n4. Manage Institution\n5. Send Message\n6. View Messages\n7. Quit\nYour choice: ")
         if action == '1':
